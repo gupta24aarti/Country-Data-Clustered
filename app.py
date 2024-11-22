@@ -5,7 +5,7 @@ import pandas as pd
 import pickle
 # load the instances that were created
 
-with open('finel_model.pkl','rb') as file:
+with open('Final_model.pkl','rb') as file:
     model = pickle.load(file)
 
 with open('pca.pkl','rb') as file:
